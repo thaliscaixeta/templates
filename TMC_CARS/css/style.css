@@ -69,6 +69,123 @@ body{
 
 }
 
+@media (min-width: 700px) and (max-width: 1199.9px){
+	.logo-img{
+		height: auto;
+		width: 100%;	
+	}
+	.logo-text{
+
+		position: fixed;
+		top:40.1px;
+		left:0;
+		padding: 10px 0 10px 20px;
+		font-size: 100px;
+		width:100%;
+		clear: both;
+		background: rgba(0,0,0,0.4);
+	}
+	
+	
+	.btn-orcamento{
+		position: fixed;
+		top: 80px;
+		right: 10px;
+		padding: 5px;
+		font-size: 18px;
+		font-family: monospace;	
+	}
+
+	.menu{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		clear: both;
+		background: rgba(0,0,0,0.7);
+		height: 40px;
+	}
+	.menu-item{
+		padding:1%;
+		height: 100%;
+		width: 17%;
+		margin: 0 2.5% 0 2.5%;
+		background: red;
+		float: left;
+		font-family: monospace;
+		font-size: 20px;
+		cursor:pointer;	
+	}
+	body{
+		padding-bottom: 60px;
+	}
+	footer{
+		font-family: monospace;
+		font-size: 24px;
+		text-align: center;
+	}
+
+
+}
+
+@media (max-width: 699.99px){
+	.logo-img{
+		height: auto;
+		width: 100%;	
+	}
+	.logo-text{
+		position: fixed;
+		top:0px;
+		left:0;
+		padding: 10px 0 10px 20px;
+		font-size: 70px;
+		width:100%;
+		clear: both;
+		text-align: center;
+	}
+	
+	
+	.btn-orcamento{	
+		text-align: center;
+		position:fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;	
+		padding: 5px;
+		font-size: 18px;
+		font-family: monospace;	
+		clear: both;
+	}
+
+	.menu{
+		width: 100%;
+		clear: both;
+		background: rgba(0,0,0,0.7);
+		height: 160px;
+	}
+	.menu-item{
+		padding:1%;
+		margin-top: 5px;
+		height: 25px;
+		width: 100%;
+		background: red;
+		float: left;
+		font-family: monospace;
+		font-size: 20px;
+		cursor:pointer;	
+	}
+	body{
+		padding-bottom: 60px;
+	}
+	footer{
+		font-family: monospace;
+		font-size: 14px;
+		text-align: center;
+	}
+
+
+}
+
 
 .logo-img{
 	z-index: 1; 
@@ -109,7 +226,7 @@ footer{
 
 
 /*CONTATO*/
-@media (min-width: 1200px ){
+@media (min-width: 200px ){
 	#contato-container{
 		padding: 20px;
 		text-align: center;
@@ -118,11 +235,8 @@ footer{
 		line-height: 30px;
 	}
 }
-@media(max-width: 1199.9px){
-	body{
-		display: none;
-	}
-}
+
+
 
 #contato-container{
 	font-family: monospace;		
@@ -154,3 +268,37 @@ footer{
 		height: 600px;
 	}
 }
+@media (max-width: 1199.9px){
+	#modelos-container{
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+		list-style: none;
+		clear: both;
+		height: auto;
+		border-top: 10px solid #D32;
+		margin-top: 30px;
+
+	}
+	#modelos-container 	li{
+		width: 100%;
+		margin: 1%;
+		height: auto;
+		clear: both
+	}
+	#modelos-container li img{
+		width: 100%;
+		height: 80%;
+	}
+	#mapa{
+		width: 100%;
+		height: 300px;
+	}
+}
+/*
+@media(max-width: 699.9px){
+	body{
+		display: none;
+	}
+}
+*/
