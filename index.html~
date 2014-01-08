@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang='pt-BR'>
+	<head>
+		<title>TMC Cars :: Brasil</title>
+		<meta charset='UTF-8'>
+		<link rel='stylesheet' href='css/style.css'>					
+	</head>
+	<body>
+		<header>
+			<p class='logo-text'>TMC Cars</p>
+			<img class='logo-img' id="elantra" src='img/elantra.jpg' title='TMC Cars' />
+			<img class='logo-img' id="r8" src='img/r8.jpg' title='TMC Cars' />
+
+			<ul class='menu'>
+				<li class='menu-item' href='#orcamento'>Home</a>
+				<li class='menu-item' href='#orcamento'>Modelos</a>
+				<li class='menu-item' href='#orcamento'>Lojas</a>
+				<li class='menu-item' href='#orcamento'>Contato</a>
+			</ul>
+			<a class='btn-orcamento' href='#orcamento' >Solicite Um Orcamento</a>
+		</header>
+
+		<section>
+			conteudo
+		</section>
+		<footer>
+		</footer>
+		
+		<!-- SCRIPTS -->
+			<script src='js/modernizr.js'></script>
+			<script src='js/jquery.min.js'></script>
+			<script src='js/moodular.js'></script> <!--Slider-->
+			<script src='js/functions.js'></script>
+		<!-- FIM SCRIPTS -->
+	<body>
+</html>
