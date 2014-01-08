@@ -113,7 +113,6 @@ footer{
 	#contato-container{
 		padding: 20px;
 		text-align: center;
-
 	}
 	#contato-container h1, #contato-container p{
 		line-height: 30px;
@@ -128,3 +127,26 @@ footer{
 #contato-container{
 	font-family: monospace;		
 	}
+
+/*Modelos*/
+@media (min-width: 1200px ){
+	#modelos-container{
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+		list-style: none;
+		clear: both;
+		height: 950px;
+
+	}
+	#modelos-container 	li{
+		width: 30%;
+		margin: 1%;
+		height: 300px;
+		float: left;
+	}
+	#modelos-container li img{
+		width: 100%;
+		height: 80%;
+	}
+}
